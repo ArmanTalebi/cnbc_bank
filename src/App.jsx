@@ -1,18 +1,16 @@
-import React from "react";
-
-import {
-  Billing,
-  Business,
-  Button,
-  CTA,
-  Clients,
-  CardDeal,
-  FeedBack,
-  Footer,
-  GetStarted,
-  Stats,
-  Testimonials,
-} from "./Components";
+import Navbar from "./Components/Navbar";
+import Billing from "./Components/Billing";
+import Business from "./Components/Business";
+import Button from "./Components/Button";
+import CardDeal from "./Components/CardDeal";
+import Clients from "./Components/Clients";
+import CTA from "./Components/CTA";
+import FeedBack from "./Components/FeedBack";
+import Footer from "./Components/Footer";
+import GetStarted from "./Components/GetStarted";
+import Hero from "./Components/Hero";
+import Stats from "./Components/Stats";
+import Testimonials from "./Components/Testimonials";
 
 const App = () => (
   <div className="bg-[#000000] w-full overflow-hidden">
@@ -45,6 +43,5 @@ const App = () => (
     </div>
   </div>
 );
-ß;
 
 export default App;
