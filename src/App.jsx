@@ -36,7 +36,6 @@ const App = () => (
         <CTA />
         <FeedBack />
         <Footer />
-        <GetStarted />
         <Stats />
         <Testimonials />
       </div>
