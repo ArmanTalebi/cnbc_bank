@@ -30,7 +30,6 @@ const App = () => (
       <div className="xl:max-w-[1280px] w-full">
         <Billing />
         <Business />
-
         <CardDeal />
         <Clients />
         <CTA />
