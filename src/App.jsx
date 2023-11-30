@@ -28,15 +28,14 @@ const App = () => (
 
     <div className="bg-[#000000] sm:px-16 px-6 flex justify-center items-start">
       <div className="xl:max-w-[1280px] w-full">
-        <Billing />
+        <Stats />
         <Business />
+        <Billing />
         <CardDeal />
+        <Testimonials />
         <Clients />
         <CTA />
-        <FeedBack />
         <Footer />
-        <Stats />
-        <Testimonials />
       </div>
     </div>
   </div>
